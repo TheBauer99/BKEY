@@ -1,0 +1,7 @@
+The Roadmap for my Keyboard Project.
+1. Define Standart Designs for ANSI & ISO PCB designs.
+2. Create CAD files for 100% 94% 75% and 60% PCBs.
+3. Create Scematic and PCB Layout for 100% Hall Effect Board.
+4. R&D 100% Board
+5. Create the 94% 75% and 60% version
+6. Create CAD files for Case Designs
