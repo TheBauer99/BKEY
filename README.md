@@ -1,2 +1,2 @@
 # BKEY
-Baues Keyboard 
+Bauers Keyboard 
