@@ -1,0 +1,1605 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "24c7c7a6-a6f6-49eb-9d95-1b7db6b3af8b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Driver_LED:IS31FL3733-TQ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IS31FL3733-TQ"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.issi.com/WW/pdf/IS31FL3733.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12x16 LED matrix driver with 8-bit PWM and breathing, TQFP-48"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "led matrix pwm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TQFP*1EP*7x7mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IS31FL3733-TQ_0_1"
+				(rectangle
+					(start -15.24 38.1)
+					(end 15.24 -38.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "IS31FL3733-TQ_1_1"
+				(pin no_connect line
+					(at -15.24 -33.02 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -25.4 180)
+					(length 2.54)
+					(name "SW8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -27.94 180)
+					(length 2.54)
+					(name "SW9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -40.64 90)
+					(length 2.54) hide
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -30.48 180)
+					(length 2.54)
+					(name "SW10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -33.02 180)
+					(length 2.54)
+					(name "SW11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -35.56 180)
+					(length 2.54)
+					(name "SW12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 35.56 180)
+					(length 2.54)
+					(name "CS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 33.02 180)
+					(length 2.54)
+					(name "CS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 30.48 180)
+					(length 2.54)
+					(name "CS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 27.94 180)
+					(length 2.54)
+					(name "CS4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 40.64 270)
+					(length 2.54)
+					(name "PVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 25.4 180)
+					(length 2.54)
+					(name "CS5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 22.86 180)
+					(length 2.54)
+					(name "CS6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 20.32 180)
+					(length 2.54)
+					(name "CS7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 17.78 180)
+					(length 2.54)
+					(name "CS8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 15.24 180)
+					(length 2.54)
+					(name "CS9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "CS10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "CS11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "CS12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 40.64 270)
+					(length 2.54)
+					(name "PVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "CS13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "CS14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "CS15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "CS16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -40.64 90)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 12.7 0)
+					(length 2.54)
+					(name "RSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -15.24 -35.56 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 40.64 270)
+					(length 2.54)
+					(name "AVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 40.64 270)
+					(length 2.54)
+					(name "DVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 35.56 0)
+					(length 2.54)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "SW3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 15.24 0)
+					(length 2.54)
+					(name "SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 30.48 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 27.94 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "ADDR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 2.54)
+					(name "ADDR2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -17.78 25.4 0)
+					(length 2.54)
+					(name "~{INTB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 22.86 0)
+					(length 2.54)
+					(name "~{SDB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 20.32 0)
+					(length 2.54)
+					(name "IICRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -40.64 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -40.64 90)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "SW4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "SW5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -20.32 180)
+					(length 2.54)
+					(name "SW6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -22.86 180)
+					(length 2.54)
+					(name "SW7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_LED:IS31FL3733-TQ")
+		(at 142.24 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b590b5a-e7a1-43e4-abb4-7f8c9af0b0d9")
+		(property "Reference" "U3"
+			(at 146.9741 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IS31FL3733-TQ"
+			(at 146.9741 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.issi.com/WW/pdf/IS31FL3733.pdf"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12x16 LED matrix driver with 8-bit PWM and breathing, TQFP-48"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "19"
+			(uuid "7717a881-0db2-4691-bbbf-3d89632f92ef")
+		)
+		(pin "3"
+			(uuid "9a57d629-ab35-4da5-a7d0-5ed37f458f7e")
+		)
+		(pin "37"
+			(uuid "892ae5c5-9e71-4610-b8f7-d020e919d186")
+		)
+		(pin "46"
+			(uuid "cf7a9aaa-e8f7-4409-a051-b1497a29f6c2")
+		)
+		(pin "39"
+			(uuid "4a67da76-97bb-4cbf-bf80-5210ee9d260d")
+		)
+		(pin "1"
+			(uuid "c8ee4e5b-3b48-45a2-9495-1749eba7f4c4")
+		)
+		(pin "23"
+			(uuid "25654253-f164-4107-9409-43529004eb25")
+		)
+		(pin "21"
+			(uuid "821250b0-b584-4c5d-996d-7351cd34f5ff")
+		)
+		(pin "14"
+			(uuid "ecf914e9-1d77-4c0a-82b4-961d49ef98be")
+		)
+		(pin "49"
+			(uuid "9596f43a-b97b-4967-808e-591f1ee70b8c")
+		)
+		(pin "2"
+			(uuid "37bc5413-26a1-4a87-9f42-aadeeb08b36a")
+		)
+		(pin "20"
+			(uuid "35439bba-02d1-4c3b-9bef-6e7c8ba62acc")
+		)
+		(pin "10"
+			(uuid "490b4d8e-310b-40c9-bf46-5beb855542ba")
+		)
+		(pin "24"
+			(uuid "d44d7177-74c5-436b-b533-0084a9812ca2")
+		)
+		(pin "29"
+			(uuid "d1d9f057-25bb-4d09-8c60-c0f4f1883dd7")
+		)
+		(pin "26"
+			(uuid "85ad55f1-aabe-4a20-983e-968ef5a6991b")
+		)
+		(pin "35"
+			(uuid "3610f6fa-126b-4247-a454-00929ac269e8")
+		)
+		(pin "33"
+			(uuid "e7ea9776-2800-43b1-904b-1cf94bc4a112")
+		)
+		(pin "45"
+			(uuid "ec0e45aa-c348-41bd-9eb1-045ebcd73fdc")
+		)
+		(pin "41"
+			(uuid "15ce0cf2-51bc-4c57-9e2a-b4688f29223b")
+		)
+		(pin "7"
+			(uuid "180bdb5d-b21c-41c4-b529-52cbf3eb3f14")
+		)
+		(pin "12"
+			(uuid "ec6cc3fe-214a-49c3-89dd-64e6dc355a5d")
+		)
+		(pin "25"
+			(uuid "963d0b12-a12c-44c5-aac1-9efd6e2250c5")
+		)
+		(pin "27"
+			(uuid "c39923ba-0d23-4e26-8851-3d90a16f96db")
+		)
+		(pin "42"
+			(uuid "ef485ef0-023b-4048-9631-7d9c8fdbd24b")
+		)
+		(pin "34"
+			(uuid "0039c558-00d3-4c59-8170-bc5a044b4e1b")
+		)
+		(pin "31"
+			(uuid "35dc41c4-56ba-4101-ae35-50081b059ac6")
+		)
+		(pin "11"
+			(uuid "6beca707-af87-40ca-84eb-b8cbdeeb5f7d")
+		)
+		(pin "32"
+			(uuid "e2370799-7081-4c53-b67b-25bd4750c6bc")
+		)
+		(pin "15"
+			(uuid "ef51f8f7-105f-4748-ba9a-75ef8a726e15")
+		)
+		(pin "16"
+			(uuid "3a4dadb7-0e80-4cf4-90b4-13dda3cbdc8d")
+		)
+		(pin "18"
+			(uuid "fe75d9d1-f15b-43dc-8387-7217fd6b339f")
+		)
+		(pin "28"
+			(uuid "80616850-73cc-4bea-b927-37c52372bef5")
+		)
+		(pin "6"
+			(uuid "71887ab3-646e-45f9-8bc6-dffffe98d727")
+		)
+		(pin "17"
+			(uuid "666832f4-cc3f-4af4-b04a-25aa88a1bcdb")
+		)
+		(pin "36"
+			(uuid "8eedd9cb-78d2-4cb9-a7e0-256e0373f3c3")
+		)
+		(pin "4"
+			(uuid "52a4386b-a95a-440f-9fd1-e657c9645665")
+		)
+		(pin "30"
+			(uuid "452dacf5-a4a5-4dfa-ab2b-1ecbc4a15690")
+		)
+		(pin "40"
+			(uuid "b19b212e-24e7-46ea-9b9b-6d392e4a451c")
+		)
+		(pin "47"
+			(uuid "468fb3f3-4fbd-43c3-a4c5-c37c722295d3")
+		)
+		(pin "48"
+			(uuid "e5b703d2-836b-4b56-adfd-49ec0e21507b")
+		)
+		(pin "22"
+			(uuid "44134fbd-1c2c-473d-b7eb-3c5ec230c4f8")
+		)
+		(pin "38"
+			(uuid "4f6a3e1a-2925-4e14-98f3-3e095763f8fc")
+		)
+		(pin "13"
+			(uuid "8ed9c4aa-d13d-421b-adaa-ff94f1c3af55")
+		)
+		(pin "43"
+			(uuid "cbe3f9ab-ddfe-4871-988a-795ea1e5746f")
+		)
+		(pin "5"
+			(uuid "9411ff8d-c28f-471c-aecb-28d1864dac06")
+		)
+		(pin "8"
+			(uuid "67d093bd-a848-429d-859a-2859708171d3")
+		)
+		(pin "9"
+			(uuid "5dbc493e-df53-4cfd-be6b-c709ebe9840b")
+		)
+		(pin "44"
+			(uuid "530ca4d1-d7d0-4da8-b08c-3f9d1c0c4be5")
+		)
+		(instances
+			(project ""
+				(path "/12231dcb-422a-4509-91eb-b753f28238ef/333ad323-999b-4598-bab7-425547360b80"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_LED:IS31FL3733-TQ")
+		(at 218.44 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee5c486-94b4-4676-a21f-fa8f9da8782f")
+		(property "Reference" "U4"
+			(at 223.1741 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IS31FL3733-TQ"
+			(at 223.1741 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.issi.com/WW/pdf/IS31FL3733.pdf"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12x16 LED matrix driver with 8-bit PWM and breathing, TQFP-48"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "17547a3b-fa8a-462c-b52c-80d537e46f9e")
+		)
+		(pin "43"
+			(uuid "62cd001a-ebec-4d43-8834-7f9d51156232")
+		)
+		(pin "25"
+			(uuid "4ce03c8a-fa88-4533-b5c3-ea4dc5699bb3")
+		)
+		(pin "18"
+			(uuid "33082840-81c1-4d52-84df-3e0a609f183a")
+		)
+		(pin "28"
+			(uuid "d0df6db2-947b-44cb-80cb-ebba3511df85")
+		)
+		(pin "12"
+			(uuid "3af5205e-095c-4d14-808a-822b58e0daf8")
+		)
+		(pin "45"
+			(uuid "7cbe77de-7d5b-410a-a790-67bc93407066")
+		)
+		(pin "27"
+			(uuid "746fbb54-7f0e-4ba4-bb49-4379d1480ccd")
+		)
+		(pin "10"
+			(uuid "fe28563a-c1b6-485e-91cf-728a96361580")
+		)
+		(pin "23"
+			(uuid "176544ca-6ac7-4bc1-bcd9-f2297be039b8")
+		)
+		(pin "49"
+			(uuid "1106125a-a5eb-4341-8363-54d3f02915ba")
+		)
+		(pin "29"
+			(uuid "149f13d1-54ba-4395-88b8-a8284699a7ef")
+		)
+		(pin "8"
+			(uuid "5bc8c322-f90d-40ef-aec1-8cc4dac2279b")
+		)
+		(pin "9"
+			(uuid "f2ab3840-0eb1-456d-a166-746bfdf80bcd")
+		)
+		(pin "19"
+			(uuid "5a27c8ae-923a-4015-bd94-0b680fc3d909")
+		)
+		(pin "15"
+			(uuid "87984a7c-5590-4f83-8bc7-a5ebc35e45d1")
+		)
+		(pin "39"
+			(uuid "4ac4fe56-5cbb-4ce8-85cd-f4b5ed574319")
+		)
+		(pin "42"
+			(uuid "84004338-4f4b-4bb9-bc01-10471721920b")
+		)
+		(pin "11"
+			(uuid "319e59f1-4652-42ad-8eb8-d825457d5c95")
+		)
+		(pin "47"
+			(uuid "8ae5845c-14f2-43a6-98c4-75b1711e47f5")
+		)
+		(pin "46"
+			(uuid "f176976e-7cac-4e68-85a2-e998149308fa")
+		)
+		(pin "48"
+			(uuid "1ed14e45-b018-4180-902e-d988960341d5")
+		)
+		(pin "21"
+			(uuid "ca800df7-d851-4997-b7a3-67f70b8ecec8")
+		)
+		(pin "14"
+			(uuid "a2a66b9d-41ba-4d9b-a2b8-70c86519b546")
+		)
+		(pin "13"
+			(uuid "619fea04-b7af-4e15-8cdf-81c0bf43d8ea")
+		)
+		(pin "22"
+			(uuid "67624ab9-c7bb-4c04-9eaf-abc07cff8f1e")
+		)
+		(pin "26"
+			(uuid "a394ffd8-a40a-4b06-b897-b1aa02803906")
+		)
+		(pin "16"
+			(uuid "a2957036-47b4-4f2a-a510-2ec704ca888b")
+		)
+		(pin "34"
+			(uuid "ce6bb9ef-8b78-4ffb-a799-19c920bffebf")
+		)
+		(pin "35"
+			(uuid "f42f7bed-9dd7-4b7e-b56b-0d476cabbcf5")
+		)
+		(pin "40"
+			(uuid "4675a48b-bfc1-489a-8401-7e8cebe044b5")
+		)
+		(pin "44"
+			(uuid "a229fd0e-4651-4341-8e2a-aa7c572594ac")
+		)
+		(pin "3"
+			(uuid "a10fadd8-702e-463a-8dce-15da23315276")
+		)
+		(pin "1"
+			(uuid "71cf50d1-b78e-4879-9465-a3613bb9ed60")
+		)
+		(pin "32"
+			(uuid "1ff60769-118a-4ba4-ba5c-3b7d3bbeefdd")
+		)
+		(pin "37"
+			(uuid "dad9d447-ca70-4aed-8151-145c58dc927d")
+		)
+		(pin "5"
+			(uuid "651f4964-99de-44c1-8864-2442ec3edce5")
+		)
+		(pin "4"
+			(uuid "81754c54-7a64-493a-8790-c78775db6311")
+		)
+		(pin "31"
+			(uuid "6b415db1-d637-4fd4-ac28-f2751683db6c")
+		)
+		(pin "20"
+			(uuid "6e451c16-6c3e-4d1b-b358-283bf07faea5")
+		)
+		(pin "24"
+			(uuid "54e2fe95-ae53-4509-bb3a-d0204da1be0b")
+		)
+		(pin "33"
+			(uuid "34d64ca9-1c33-45bd-8106-b01ffba59305")
+		)
+		(pin "17"
+			(uuid "312a5e3a-4128-4a70-bd48-5a685e4e97c9")
+		)
+		(pin "2"
+			(uuid "7d86e106-c8c8-44e0-86b3-187e4babdbce")
+		)
+		(pin "36"
+			(uuid "50c8927d-1fce-4e20-b859-179aecd394f8")
+		)
+		(pin "38"
+			(uuid "2e3d1758-e863-4a3d-a4de-2e69a691a1d0")
+		)
+		(pin "30"
+			(uuid "734fc9ea-a0e5-463a-8018-477963af9f63")
+		)
+		(pin "41"
+			(uuid "fb9095c8-728a-43b1-bda5-f99f7ff2748e")
+		)
+		(pin "6"
+			(uuid "38106b3f-4b89-4a05-9fb2-37558785bd49")
+		)
+		(instances
+			(project ""
+				(path "/12231dcb-422a-4509-91eb-b753f28238ef/333ad323-999b-4598-bab7-425547360b80"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_LED:IS31FL3733-TQ")
+		(at 66.04 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb927fa4-c7f4-440b-a8ae-40b142572092")
+		(property "Reference" "U2"
+			(at 70.7741 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IS31FL3733-TQ"
+			(at 70.7741 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.issi.com/WW/pdf/IS31FL3733.pdf"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12x16 LED matrix driver with 8-bit PWM and breathing, TQFP-48"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "f24571d6-8aa3-40a9-ae59-c794e5da9ef7")
+		)
+		(pin "48"
+			(uuid "c5f7beb0-15ca-4e84-856a-e75e911477af")
+		)
+		(pin "38"
+			(uuid "26edc69e-28a2-4cf9-87f1-85a4673d60fc")
+		)
+		(pin "2"
+			(uuid "32831593-74d1-49a2-acea-4fa8873eed15")
+		)
+		(pin "10"
+			(uuid "5a2bea26-d48d-46e0-8e5c-3f77e260dc4d")
+		)
+		(pin "30"
+			(uuid "c3cba294-ad24-4e20-b539-48fcdef40b35")
+		)
+		(pin "34"
+			(uuid "93476d8b-784b-42d0-9117-d4ec5e51f3ec")
+		)
+		(pin "3"
+			(uuid "5730337c-2aac-45c1-8dce-190deed1f7a9")
+		)
+		(pin "37"
+			(uuid "a4fc2256-fa60-43cd-9910-78be490c98f2")
+		)
+		(pin "40"
+			(uuid "2d9d25c4-abee-42e4-953e-a3ef42bbeacc")
+		)
+		(pin "44"
+			(uuid "20fb251a-0186-44b7-aec6-0c8eb2caf81c")
+		)
+		(pin "46"
+			(uuid "0e574f08-926b-4e61-9ab2-a1d09f1360c8")
+		)
+		(pin "18"
+			(uuid "eebb3a24-3aee-4046-bcf6-932ba6700feb")
+		)
+		(pin "22"
+			(uuid "2ec39574-651d-4368-85ad-a470f86b8a59")
+		)
+		(pin "49"
+			(uuid "96a65e17-4430-4a32-add7-62df12e59920")
+		)
+		(pin "5"
+			(uuid "99b6d275-aa16-4d35-8105-e11baa229619")
+		)
+		(pin "1"
+			(uuid "0ff491ff-a882-491b-a072-b357158572ec")
+		)
+		(pin "9"
+			(uuid "2f2cd8d9-a044-4552-a4cf-6536c681d38e")
+		)
+		(pin "17"
+			(uuid "fba6d4d8-8777-4bab-92ed-bf0955ddf036")
+		)
+		(pin "36"
+			(uuid "0cb6c3de-cc2b-42a8-b039-879ffbf6642f")
+		)
+		(pin "20"
+			(uuid "36fcba95-214d-4ca3-aff2-584e65de0fd3")
+		)
+		(pin "41"
+			(uuid "2f069098-32dc-4cee-9928-def0dee0b72e")
+		)
+		(pin "43"
+			(uuid "6a9b4109-cbe9-43cd-adaf-91346f8c7c89")
+		)
+		(pin "26"
+			(uuid "ee301b1b-3a45-478f-9599-618db1cfbfb3")
+		)
+		(pin "39"
+			(uuid "67a70ed0-040b-454c-b235-d1d22f900544")
+		)
+		(pin "7"
+			(uuid "2e97ebc5-2fa1-48fb-9855-d153cffce2c9")
+		)
+		(pin "15"
+			(uuid "6e6dc687-117e-4cd7-a3f8-1fa5ba38d97c")
+		)
+		(pin "4"
+			(uuid "f8b29c73-2c0f-4b98-a338-4a887cfaa521")
+		)
+		(pin "8"
+			(uuid "34c71270-2e1f-4a35-92af-866b1e17a2ef")
+		)
+		(pin "11"
+			(uuid "97a07c2a-5a40-4be4-aca3-c69bb13d6685")
+		)
+		(pin "23"
+			(uuid "e6aee510-917c-4a15-bdfa-f60d82876f59")
+		)
+		(pin "35"
+			(uuid "cf6ac116-3e1b-4fb3-a1ff-8b36b87054e2")
+		)
+		(pin "13"
+			(uuid "a8484a99-932a-441b-ac0e-77aa072ba687")
+		)
+		(pin "28"
+			(uuid "8d1fa228-6641-4c74-8d55-2978000b4389")
+		)
+		(pin "21"
+			(uuid "b45d0801-42b8-460c-8eec-d4a69c9970c2")
+		)
+		(pin "27"
+			(uuid "df9fbe8a-8087-4363-af73-24604ed754b8")
+		)
+		(pin "24"
+			(uuid "9179614c-ba96-4eae-a1af-417770d6c63f")
+		)
+		(pin "6"
+			(uuid "5a8cf6aa-fc8d-4c7c-ab0c-14a3fb1cb886")
+		)
+		(pin "12"
+			(uuid "f319bb3a-9974-4185-b518-aa5a6d6c94d3")
+		)
+		(pin "14"
+			(uuid "6d06c18e-32dd-4102-ae73-e1101fe7dd85")
+		)
+		(pin "31"
+			(uuid "2b6f51f3-1d00-4b04-b2e8-2762b8c0f1b2")
+		)
+		(pin "25"
+			(uuid "7fa6db4a-4dce-4394-877d-d87489771f5f")
+		)
+		(pin "32"
+			(uuid "dc76bfa5-f794-4f1a-a762-cbc005d43f09")
+		)
+		(pin "42"
+			(uuid "e3b9331a-e900-4e05-8e1f-19d46c3e83d5")
+		)
+		(pin "45"
+			(uuid "2748831d-e5a8-4a82-a159-39345b4a6c5b")
+		)
+		(pin "19"
+			(uuid "7a25582a-70bf-4f2a-93ec-e09f72904fd3")
+		)
+		(pin "47"
+			(uuid "0c78c340-4f43-414d-97f8-b0e92520e0fe")
+		)
+		(pin "29"
+			(uuid "3df4805f-caae-40e4-bd07-31323227875d")
+		)
+		(pin "33"
+			(uuid "77bde91e-94fa-4177-b403-32616c1102a6")
+		)
+		(instances
+			(project ""
+				(path "/12231dcb-422a-4509-91eb-b753f28238ef/333ad323-999b-4598-bab7-425547360b80"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
